@@ -1,0 +1,86 @@
+/* Estilo para o cabeçalho */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-height: 100px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo para a seção de Instalações e História */
+section {
+  margin-top: 120px;
+  padding: 40px;
+}
+
+.foto-instalacoes {
+  margin-bottom: 30px;
+}
+
+.foto-instalacoes img {
+  width: 100%;
+}
+
+.historia {
+  margin-top: 30px;
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Estilo para o título da página */
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Estilo para o subtítulo da página */
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.fotoInstalacoes{
+  border-radius: 5px;
+}
